@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<form asp-action="SubmitForm" asp-controller="Home" method="post">
+    <div class="jumbotron">
+        <h1>User Registration Form</h1>
+        <div class="form-group">
+            <label for="username">Enter User Name</label>
+            <input type="text" name="username" class="form-control" />
+        </div>
+        <div class="form-group">
+        <label for="useremail">Enter User Email</label>
+        <input type="text" name="useremail" class="form-control" />
+        </div>
+        
+        <button type="submit">Submit</button>
+       </div>
+    </form>
+    
